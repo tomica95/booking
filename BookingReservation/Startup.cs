@@ -4,9 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Application.CommandHendler;
 using Application.Commands.RoomType;
+using Application.Queries.RoomType;
 using DataAccess;
 using Implementation.Commands.RoomTypeCommands;
 using Implementation.Profiles;
+using Implementation.Queries.RoomType;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -42,6 +44,7 @@ namespace BookingReservation
 			#region RoomType
 
 			services.AddTransient<ICreateRoomType, EFCreateRoomType>();
+			services.AddTransient<IGetAllRoomTypes, EFGetAllRoomTypesQuery>();
 			#endregion
 
 			services.AddControllers();

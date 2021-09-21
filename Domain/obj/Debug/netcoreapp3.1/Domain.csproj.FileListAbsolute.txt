@@ -7,3 +7,13 @@ C:\Users\milos.ruzic\source\repos\booking\Domain\obj\Debug\netcoreapp3.1\Domain.
 C:\Users\milos.ruzic\source\repos\booking\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\milos.ruzic\source\repos\booking\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\milos.ruzic\source\repos\booking\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Toma\source\repos\private\booking\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\Toma\source\repos\private\booking\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Toma\source\repos\private\booking\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Toma\source\repos\private\booking\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\Toma\source\repos\private\booking\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toma\source\repos\private\booking\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Toma\source\repos\private\booking\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\Toma\source\repos\private\booking\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Toma\source\repos\private\booking\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Toma\source\repos\private\booking\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

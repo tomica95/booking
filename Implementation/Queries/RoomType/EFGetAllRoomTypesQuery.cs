@@ -1,4 +1,6 @@
-﻿using Application.DTO;
+﻿using Application.CommandHendler;
+using Application.DTO;
+using Application.DTO.Pagination;
 using Application.DTO.Search;
 using Application.Queries.RoomType;
 using AutoMapper;
@@ -25,17 +27,28 @@ namespace Implementation.Queries.RoomType
 
 		public string Name => "Get Room Types";
 
-		public RoomTypeDTO Execute(SearchRoomTypeDTO search)
+		public PagedResponse<RoomTypeDTO> Execute(SearchRoomTypeDTO dto)
 		{
 			var rolesQuery = _context.RoomTypes.AsQueryable();
 
-			if (!string.IsNullOrEmpty(search.Name) || !string.IsNullOrWhiteSpace(search.Name))
+			if (!string.IsNullOrEmpty(dto.Name) || !string.IsNullOrWhiteSpace(dto.Name))
 			{
-				rolesQuery = rolesQuery.Where(r => r.Name.ToLower().Contains(search.Name.ToLower()));
+				rolesQuery = rolesQuery.Where(r => r.Name.ToLower().Contains(dto.Name.ToLower()));
 			}
 
-			return _mapper.Map<RoomTypeDTO>(rolesQuery);
+			var skipCount = dto.PerPage * (dto.Page - 1);
 
+			var roles = _mapper.Map<List<RoomTypeDTO>>(rolesQuery.Skip(skipCount).Take(dto.PerPage).ToList());
+
+			var reponse = new PagedResponse<RoomTypeDTO>
+			{
+				CurrentPage = dto.Page,
+				ItemsPerPage = dto.PerPage,
+				TotalCount = rolesQuery.Count(),
+				Items = roles
+			};
+
+			return reponse;
 		}
 	}
 }

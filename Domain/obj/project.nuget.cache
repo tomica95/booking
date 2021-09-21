@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n2Gw+UdLQw8Aaf/r1Fm5VtkTdg2M93yLA7Eq7Ya8vifeiihja6M8iBkr1+8tcvYsgXfJWB52c75VBy9zdtGKFQ==",
+  "dgSpecHash": "EZf9DKSjU+FqPIfsf2UZVJa+k5J8IoBKCKq8ag+c2arcVKq6SHaXxVfIOeZ3oVD2jb5JuYY2XOOrLQuapq/pbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

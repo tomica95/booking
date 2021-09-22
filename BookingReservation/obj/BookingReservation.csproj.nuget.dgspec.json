@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Toma\\source\\repos\\private\\booking\\BookingReservation\\BookingReservation.csproj": {}
+    "C:\\Users\\milos.ruzic\\source\\repos\\booking\\BookingReservation\\BookingReservation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\Application.csproj": {
+    "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Toma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\obj\\",
+        "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\milos.ruzic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Toma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\milos.ruzic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,10 +29,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj"
               }
             }
           }
@@ -47,7 +44,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -63,27 +59,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Toma\\source\\repos\\private\\booking\\BookingReservation\\BookingReservation.csproj": {
+    "C:\\Users\\milos.ruzic\\source\\repos\\booking\\BookingReservation\\BookingReservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toma\\source\\repos\\private\\booking\\BookingReservation\\BookingReservation.csproj",
+        "projectUniqueName": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\BookingReservation\\BookingReservation.csproj",
         "projectName": "BookingReservation",
-        "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\BookingReservation\\BookingReservation.csproj",
-        "packagesPath": "C:\\Users\\Toma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\BookingReservation\\obj\\",
+        "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\BookingReservation\\BookingReservation.csproj",
+        "packagesPath": "C:\\Users\\milos.ruzic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\BookingReservation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Toma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\milos.ruzic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -94,19 +88,18 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\Application.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\Application.csproj"
               },
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\Implementation\\Implementation.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Implementation\\Implementation.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Implementation\\Implementation.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Implementation\\Implementation.csproj"
               }
             }
           }
@@ -119,7 +112,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -138,27 +130,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Toma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\milos.ruzic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Toma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\milos.ruzic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -169,10 +159,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj"
               }
             }
           }
@@ -185,7 +174,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -223,27 +211,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj": {
+    "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Toma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\milos.ruzic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Toma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\milos.ruzic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -254,7 +240,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -266,7 +251,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -282,27 +266,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Toma\\source\\repos\\private\\booking\\Implementation\\Implementation.csproj": {
+    "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Implementation\\Implementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Implementation\\Implementation.csproj",
+        "projectUniqueName": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Implementation\\Implementation.csproj",
         "projectName": "Implementation",
-        "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Implementation\\Implementation.csproj",
-        "packagesPath": "C:\\Users\\Toma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Implementation\\obj\\",
+        "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Implementation\\Implementation.csproj",
+        "packagesPath": "C:\\Users\\milos.ruzic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Implementation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Toma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\milos.ruzic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -313,16 +295,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Application\\Application.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Application\\Application.csproj"
               },
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Toma\\source\\repos\\private\\booking\\Domain\\Domain.csproj"
+              "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\milos.ruzic\\source\\repos\\booking\\Domain\\Domain.csproj"
               }
             }
           }
@@ -335,7 +316,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -365,7 +345,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

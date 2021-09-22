@@ -18,6 +18,11 @@ namespace DataAccess.Configs
 				.IsRequired()
 				.HasMaxLength(50);
 
+			builder.HasMany(r => r.Rooms)
+				.WithOne(rt => rt.RoomType)
+				.HasForeignKey(r => r.RoomTypeId)
+				.OnDelete(DeleteBehavior.Restrict);
+
 		}
 	}
 }

@@ -10,15 +10,17 @@ namespace DataAccess
 	public class Context : DbContext
 	{
 		public DbSet<RoomType> RoomTypes { get; set; }
+		public DbSet<Room> Room { get; set; }
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			optionsBuilder.UseSqlServer(@"Data Source=.\TOMICA\SQLEXPRESS;Initial Catalog=booking_reservation_db;Integrated Security=True");
+			optionsBuilder.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=booking_reservation_db;Integrated Security=True");
 		}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.ApplyConfiguration(new RoomTypeConfig());
+			modelBuilder.ApplyConfiguration(new RoomConfig());
 		}
 
 		public override int SaveChanges()

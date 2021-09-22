@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Application.DTO
 {
-	public class RoomTypeDTO : BaseDTO
+	public class RoomTypeDTO
 	{
+		public int Id { get; set; }
 		public string Name { get; set; }
 	}
 }

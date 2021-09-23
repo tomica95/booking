@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210922130740_update room type config")]
-    partial class updateroomtypeconfig
+    [Migration("20210923081741_Room")]
+    partial class Room
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

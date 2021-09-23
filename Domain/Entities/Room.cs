@@ -12,7 +12,9 @@ namespace Domain.Entities
 
 		// Room has one RoomType
 		public int RoomTypeId { get; set; }
+
 		public virtual RoomType RoomType { get; set; }
 
+		public virtual ICollection<RoomFacility> Facilities { get; set; }
 	}
 }

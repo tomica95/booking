@@ -12,6 +12,8 @@ namespace DataAccess
 		public DbSet<RoomType> RoomTypes { get; set; }
 		public DbSet<Room> Room { get; set; }
 
+		public DbSet<Facility> Facility { get; set; }
+
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=booking_reservation_db;Integrated Security=True");
@@ -21,6 +23,9 @@ namespace DataAccess
 		{
 			modelBuilder.ApplyConfiguration(new RoomTypeConfig());
 			modelBuilder.ApplyConfiguration(new RoomConfig());
+			modelBuilder.ApplyConfiguration(new FacilityConfig());
+			modelBuilder.Entity<RoomFacility>()
+				.HasKey(roomfacility => new { roomfacility.RoomId, roomfacility.FacilityId });
 		}
 
 		public override int SaveChanges()

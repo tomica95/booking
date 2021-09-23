@@ -16,10 +16,10 @@ namespace DataAccess.Configs
 
 			builder.Property(r => r.Name)
 				.IsRequired();
-			
+
 			builder.Property(r => r.Description)
-				.IsRequired();	
-			
+				.IsRequired();
+
 			builder.Property(r => r.Space)
 				.IsRequired();
 
@@ -28,6 +28,10 @@ namespace DataAccess.Configs
 				.HasForeignKey(r => r.RoomTypeId)
 				.OnDelete(DeleteBehavior.Restrict);
 
+			builder.HasMany(rf => rf.Facilities)
+				.WithOne(rf => rf.Room)
+				.HasForeignKey(rf => rf.RoomId)
+				.OnDelete(DeleteBehavior.Restrict);
 		}
 	}
 }

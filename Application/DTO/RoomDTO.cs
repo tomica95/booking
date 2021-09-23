@@ -12,5 +12,7 @@ namespace Application.DTO
 		public double Space { get; set; }
 
 		public RoomTypeDTO RoomType { get; set; }
+
+		public IEnumerable<FacilityDTO> Facilities { get; set; } = new List<FacilityDTO>();
 	}
 }

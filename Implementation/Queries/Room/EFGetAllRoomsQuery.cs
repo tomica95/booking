@@ -4,6 +4,7 @@ using Application.DTO.Search;
 using Application.Queries.Room;
 using AutoMapper;
 using DataAccess;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,22 +29,22 @@ namespace Implementation.Queries.Room
 
 		public PagedResponse<RoomDTO> Execute(SearchRoomDTO dto)
 		{
-			var rolesQuery = _context.Room.AsQueryable();
+			var rooms = _context.Room.Include(rt => rt.RoomType).AsQueryable();
 
 			if (!string.IsNullOrEmpty(dto.Name) || !string.IsNullOrWhiteSpace(dto.Name))
 			{
-				rolesQuery = rolesQuery.Where(r => r.Name.ToLower().Contains(dto.Name.ToLower()));
+				rooms = rooms.Where(r => r.Name.ToLower().Contains(dto.Name.ToLower()));
 			}
 
 			var skipCount = dto.PerPage * (dto.Page - 1);
 
-			var roles = _mapper.Map<List<RoomDTO>>(rolesQuery.Skip(skipCount).Take(dto.PerPage).ToList());
+			var roles = _mapper.Map<List<RoomDTO>>(rooms.Skip(skipCount).Take(dto.PerPage).ToList());
 
 			var reponse = new PagedResponse<RoomDTO>
 			{
 				CurrentPage = dto.Page,
 				ItemsPerPage = dto.PerPage,
-				TotalCount = rolesQuery.Count(),
+				TotalCount = rooms.Count(),
 				Items = roles
 			};
 

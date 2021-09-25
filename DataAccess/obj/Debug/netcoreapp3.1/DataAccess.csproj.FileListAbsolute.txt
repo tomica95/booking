@@ -3,7 +3,6 @@ C:\Users\milos.ruzic\source\repos\booking\DataAccess\bin\Debug\netcoreapp3.1\Dat
 C:\Users\milos.ruzic\source\repos\booking\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\milos.ruzic\source\repos\booking\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
 C:\Users\milos.ruzic\source\repos\booking\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\milos.ruzic\source\repos\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
 C:\Users\milos.ruzic\source\repos\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
 C:\Users\milos.ruzic\source\repos\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
 C:\Users\milos.ruzic\source\repos\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
@@ -29,3 +28,5 @@ C:\Users\Toma\source\repos\private\booking\DataAccess\obj\Debug\netcoreapp3.1\Da
 C:\Users\Toma\source\repos\private\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
 C:\Users\Toma\source\repos\private\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\Toma\source\repos\private\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\milos.ruzic\source\repos\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\milos.ruzic\source\repos\booking\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig

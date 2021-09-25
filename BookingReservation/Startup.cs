@@ -3,14 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Application.CommandHendler;
+using Application.Commands.Facility;
+using Application.Commands.Property;
 using Application.Commands.Room;
 using Application.Commands.RoomType;
+using Application.Queries.Facility;
+using Application.Queries.Property;
 using Application.Queries.Room;
 using Application.Queries.RoomType;
 using DataAccess;
+using Implementation.Commands.FacilityCommands;
+using Implementation.Commands.PropertyCommand;
 using Implementation.Commands.RoomCommands;
 using Implementation.Commands.RoomTypeCommands;
 using Implementation.Profiles;
+using Implementation.Queries.Facility;
+using Implementation.Queries.Property;
 using Implementation.Queries.Room;
 using Implementation.Queries.RoomType;
 using Microsoft.AspNetCore.Builder;
@@ -42,7 +50,7 @@ namespace BookingReservation
 			#endregion
 																												 
 			#region Automapper
-			services.AddAutoMapper(typeof(RoomTypeProfile), typeof(RoomProfile));
+			services.AddAutoMapper(typeof(RoomTypeProfile), typeof(RoomProfile), typeof(PropertyProfile), typeof(FacilityProfile));
 			#endregion
 
 			#region RoomType
@@ -52,9 +60,18 @@ namespace BookingReservation
 			#endregion	  
 
 			#region Room
-
 			services.AddTransient<ICreateRoom, EFCreateRoom>();
 			services.AddTransient<IGetAllRooms, EFGetAllRoomsQuery>();
+			#endregion 
+
+			#region Property
+			services.AddTransient<ICreateProperty, EFCreateProperty>();
+			services.AddTransient<IGetAllProperties, EFGetAllProperties>();
+			#endregion 
+
+			#region Facility
+			services.AddTransient<ICreateFacility, EFCreateFacility>();
+			services.AddTransient<IGetAllFacilities, EFGetAllFacilities>();
 			#endregion
 
 			services.AddControllers();

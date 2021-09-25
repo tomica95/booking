@@ -8,6 +8,5 @@ namespace Application.Commands.RoomType
 {
 	public interface ICreateRoomType : ICommand<RoomTypeDTO>
 	{
-
 	}
 }

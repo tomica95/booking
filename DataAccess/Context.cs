@@ -10,7 +10,9 @@ namespace DataAccess
 	public class Context : DbContext
 	{
 		public DbSet<RoomType> RoomTypes { get; set; }
-		public DbSet<Room> Room { get; set; }
+		public DbSet<Room> Rooms { get; set; }
+		public DbSet<Property> Properties { get; set; }
+		public DbSet<Facility> Facilities { get; set; }
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
@@ -21,6 +23,11 @@ namespace DataAccess
 		{
 			modelBuilder.ApplyConfiguration(new RoomTypeConfig());
 			modelBuilder.ApplyConfiguration(new RoomConfig());
+			modelBuilder.ApplyConfiguration(new PropertyConfig());
+			modelBuilder.ApplyConfiguration(new FacilityConfig());
+
+			modelBuilder.Entity<FacilityRoom>()
+				.HasKey(fr => new { fr.FacilityId, fr.RoomId});
 		}
 
 		public override int SaveChanges()

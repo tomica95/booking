@@ -29,7 +29,10 @@ namespace Implementation.Queries.Room
 
 		public PagedResponse<RoomDTO> Execute(SearchRoomDTO dto)
 		{
-			var rooms = _context.Room.Include(rt => rt.RoomType).AsQueryable();
+			var rooms = _context.Rooms
+				.Include(rt => rt.RoomType)
+				.Include(p => p.Property)
+				.AsQueryable();
 
 			if (!string.IsNullOrEmpty(dto.Name) || !string.IsNullOrWhiteSpace(dto.Name))
 			{

@@ -1,6 +1,5 @@
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\BookingReservation.exe
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\BookingReservation.deps.json
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\BookingReservation.runtimeconfig.json
@@ -15,7 +14,6 @@ C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreap
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\bin\Debug\netcoreapp3.1\Implementation.pdb
-C:\Users\milos.ruzic\source\repos\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.csprojAssemblyReference.cache
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.AssemblyInfoInputs.cache
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.AssemblyInfo.cs
 C:\Users\milos.ruzic\source\repos\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.csproj.CoreCompileInputs.cache
@@ -143,3 +141,6 @@ C:\Users\Toma\source\repos\private\booking\BookingReservation\obj\Debug\netcorea
 C:\Users\Toma\source\repos\private\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.dll
 C:\Users\Toma\source\repos\private\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.pdb
 C:\Users\Toma\source\repos\private\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.genruntimeconfig.cache
+C:\Users\milos.ruzic\source\repos\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.csproj.AssemblyReference.cache
+C:\Users\milos.ruzic\source\repos\booking\BookingReservation\obj\Debug\netcoreapp3.1\BookingReservation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\milos.ruzic\source\repos\booking\BookingReservation\obj\Debug\netcoreapp3.1\scopedcss\bundle\BookingReservation.styles.css

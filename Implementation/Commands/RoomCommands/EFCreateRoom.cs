@@ -23,9 +23,12 @@ namespace Implementation.Commands.RoomCommands
 			var room = Mapper.Map<Room>(request);
 
 			room.RoomType = null;
-			room.RoomTypeId = request.RoomType.Id;
+			room.RoomTypeId = request.RoomType.Id;	
 
-			Context.Room.Add(room);
+			room.Property = null;
+			room.PropertyId = request.Property.Id;
+
+			Context.Rooms.Add(room);
 			Context.SaveChanges();
 		}
 	}

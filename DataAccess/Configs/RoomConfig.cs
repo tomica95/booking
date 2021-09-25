@@ -28,6 +28,16 @@ namespace DataAccess.Configs
 				.HasForeignKey(r => r.RoomTypeId)
 				.OnDelete(DeleteBehavior.Restrict);
 
+			builder.HasOne(p => p.Property)
+				.WithMany(r => r.Rooms)
+				.HasForeignKey(r => r.PropertyId)
+				.OnDelete(DeleteBehavior.Restrict);
+
+			builder.HasMany(rf => rf.RoomFacilities)
+			   .WithOne(rf => rf.Room)
+			   .HasForeignKey(rf => rf.RoomId)
+			   .OnDelete(DeleteBehavior.Restrict);
+
 		}
 	}
 }

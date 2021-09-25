@@ -3,7 +3,6 @@ C:\Users\milos.ruzic\source\repos\booking\Application\bin\Debug\netcoreapp3.1\Ap
 C:\Users\milos.ruzic\source\repos\booking\Application\bin\Debug\netcoreapp3.1\Application.pdb
 C:\Users\milos.ruzic\source\repos\booking\Application\bin\Debug\netcoreapp3.1\Domain.dll
 C:\Users\milos.ruzic\source\repos\booking\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\milos.ruzic\source\repos\booking\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
 C:\Users\milos.ruzic\source\repos\booking\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
 C:\Users\milos.ruzic\source\repos\booking\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
 C:\Users\milos.ruzic\source\repos\booking\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
@@ -23,3 +22,5 @@ C:\Users\Toma\source\repos\private\booking\Application\obj\Debug\netcoreapp3.1\A
 C:\Users\Toma\source\repos\private\booking\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\Users\Toma\source\repos\private\booking\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\Toma\source\repos\private\booking\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\milos.ruzic\source\repos\booking\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
+C:\Users\milos.ruzic\source\repos\booking\Application\obj\Debug\netcoreapp3.1\Application.GeneratedMSBuildEditorConfig.editorconfig

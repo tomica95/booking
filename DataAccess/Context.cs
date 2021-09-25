@@ -14,6 +14,8 @@ namespace DataAccess
 		public DbSet<Property> Properties { get; set; }
 		public DbSet<Facility> Facilities { get; set; }
 
+		public DbSet<Facility> Facility { get; set; }
+
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=booking_reservation_db;Integrated Security=True");

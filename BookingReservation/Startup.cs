@@ -46,9 +46,11 @@ namespace BookingReservation
 			services.AddTransient<CommandExecutor>();
 
 			#region DbContext
+
 			services.AddTransient<Context>();
-			#endregion
-																												 
+
+			#endregion DbContext
+
 			#region Automapper
 			services.AddAutoMapper(typeof(RoomTypeProfile), typeof(RoomProfile), typeof(PropertyProfile), typeof(FacilityProfile));
 			#endregion
@@ -57,7 +59,8 @@ namespace BookingReservation
 
 			services.AddTransient<ICreateRoomType, EFCreateRoomType>();
 			services.AddTransient<IGetAllRoomTypes, EFGetAllRoomTypesQuery>();
-			#endregion	  
+
+			#endregion RoomType
 
 			#region Room
 			services.AddTransient<ICreateRoom, EFCreateRoom>();

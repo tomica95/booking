@@ -16,10 +16,10 @@ namespace DataAccess.Configs
 
 			builder.Property(r => r.Name)
 				.IsRequired();
-			
+
 			builder.Property(r => r.Description)
-				.IsRequired();	
-			
+				.IsRequired();
+
 			builder.Property(r => r.Space)
 				.IsRequired();
 

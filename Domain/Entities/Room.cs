@@ -20,5 +20,6 @@ namespace Domain.Entities
 
 		public virtual ICollection<FacilityRoom> RoomFacilities { get; set; } = new HashSet<FacilityRoom>();
 
+		public virtual ICollection<RoomFacility> Facilities { get; set; }
 	}
 }
